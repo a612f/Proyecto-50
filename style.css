@@ -1,0 +1,59 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(167, 79, 194);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(251, 255, 254);
+}
+
+
+body{
+    background-color: rgb(236, 220, 209);
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+}
+
+.grid img{
+    border: 2px sold rgb(111, 223, 208);
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px; 
+    width: 310px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+head{
+    color: rgb(119, 0, 255);
+}
+
+.bodyimg{
+    position: relative;
+}
+
+.bodyimg p{
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+    position: absolute;
+    top: 20%;
+    left: 80%
+    transform: translate(-50%, -50%);
+}
+
+.bodyimg h3{
+    position: absolute;
+    top: 50%;
+    left: 50%
+    transform: translate(-50%, -50%);
+}
